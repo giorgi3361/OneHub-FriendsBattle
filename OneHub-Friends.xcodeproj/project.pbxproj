@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D201E27621081CDFCD08B86 /* Pods_OneHub_Friends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A094902A35EC4FE14C38DC4D /* Pods_OneHub_Friends.framework */; };
+		84EF82CB2DCB989C00C22E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EF82C22DCB989C00C22E79 /* Assets.xcassets */; };
+		84EF82CD2DCB989C00C22E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF82C52DCB989C00C22E79 /* LaunchScreen.storyboard */; };
+		84EF82CE2DCB989C00C22E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF82C72DCB989C00C22E79 /* Main.storyboard */; };
+		84EF82CF2DCB989C00C22E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82C12DCB989C00C22E79 /* AppDelegate.swift */; };
+		84EF82D02DCB989C00C22E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82C82DCB989C00C22E79 /* SceneDelegate.swift */; };
+		84EF82DC2DCB98B400C22E79 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82D82DCB98B400C22E79 /* TabItem.swift */; };
+		84EF82DD2DCB98B400C22E79 /* GameBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82D32DCB98B400C22E79 /* GameBase.swift */; };
+		84EF82DE2DCB98B400C22E79 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82D92DCB98B400C22E79 /* PlayerModel.swift */; };
+		84EF82DF2DCB98B400C22E79 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82D62DCB98B400C22E79 /* FriendsViewModel.swift */; };
+		84EF82E02DCB98B400C22E79 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82D42DCB98B400C22E79 /* Helper.swift */; };
+		84EF82E12DCB98B400C22E79 /* AvatarPositionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82DA2DCB98B400C22E79 /* AvatarPositionKey.swift */; };
+		84EF82E32DCB98B800C22E79 /* lottieAnim.json in Resources */ = {isa = PBXBuildFile; fileRef = 84EF82E22DCB98B800C22E79 /* lottieAnim.json */; };
+		84EF82E52DCB98C100C22E79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84EF82E42DCB98C100C22E79 /* GoogleService-Info.plist */; };
+		84EF82F82DCB98C600C22E79 /* GamesHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82EB2DCB98C600C22E79 /* GamesHub.swift */; };
+		84EF82F92DCB98C600C22E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82E62DCB98C600C22E79 /* ViewController.swift */; };
+		84EF82FA2DCB98C600C22E79 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82E72DCB98C600C22E79 /* MainTabBar.swift */; };
+		84EF82FB2DCB98C600C22E79 /* EmojiBattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82EE2DCB98C600C22E79 /* EmojiBattleView.swift */; };
+		84EF82FC2DCB98C600C22E79 /* AvatarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82EA2DCB98C600C22E79 /* AvatarPickerView.swift */; };
+		84EF82FD2DCB98C600C22E79 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F72DCB98C600C22E79 /* StoreManager.swift */; };
+		84EF82FE2DCB98C600C22E79 /* QuickMathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82EF2DCB98C600C22E79 /* QuickMathView.swift */; };
+		84EF82FF2DCB98C600C22E79 /* GameDetailSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82EC2DCB98C600C22E79 /* GameDetailSwift.swift */; };
+		84EF83002DCB98C600C22E79 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F22DCB98C600C22E79 /* StatsView.swift */; };
+		84EF83012DCB98C600C22E79 /* TrueOrDareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82ED2DCB98C600C22E79 /* TrueOrDareView.swift */; };
+		84EF83022DCB98C600C22E79 /* Font + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F62DCB98C600C22E79 /* Font + ext.swift */; };
+		84EF83032DCB98C600C22E79 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82E82DCB98C600C22E79 /* FriendsView.swift */; };
+		84EF83042DCB98C600C22E79 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F32DCB98C600C22E79 /* CustomAlertView.swift */; };
+		84EF83052DCB98C600C22E79 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F52DCB98C600C22E79 /* BackButton.swift */; };
+		84EF83062DCB98C600C22E79 /* PlayersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82E92DCB98C600C22E79 /* PlayersCard.swift */; };
+		84EF83072DCB98C600C22E79 /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F42DCB98C600C22E79 /* Back.swift */; };
+		84EF83082DCB98C600C22E79 /* GuessTheWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF82F02DCB98C600C22E79 /* GuessTheWordView.swift */; };
+		84EF830A2DCB98F200C22E79 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 84EF83092DCB98F200C22E79 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1177B688D5CCFD907797DC37 /* Pods-OneHub-Friends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHub-Friends.debug.xcconfig"; path = "Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends.debug.xcconfig"; sourceTree = "<group>"; };
+		84EF82A92DCB988900C22E79 /* OneHub-Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneHub-Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF82C12DCB989C00C22E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EF82C22DCB989C00C22E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EF82C32DCB989C00C22E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EF82C42DCB989C00C22E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EF82C62DCB989C00C22E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EF82C82DCB989C00C22E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84EF82D22DCB98A400C22E79 /* OneHub-Friends.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OneHub-Friends.entitlements"; sourceTree = "<group>"; };
+		84EF82D32DCB98B400C22E79 /* GameBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBase.swift; sourceTree = "<group>"; };
+		84EF82D42DCB98B400C22E79 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		84EF82D62DCB98B400C22E79 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		84EF82D82DCB98B400C22E79 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		84EF82D92DCB98B400C22E79 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		84EF82DA2DCB98B400C22E79 /* AvatarPositionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPositionKey.swift; sourceTree = "<group>"; };
+		84EF82E22DCB98B800C22E79 /* lottieAnim.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lottieAnim.json; sourceTree = "<group>"; };
+		84EF82E42DCB98C100C22E79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84EF82E62DCB98C600C22E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EF82E72DCB98C600C22E79 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		84EF82E82DCB98C600C22E79 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		84EF82E92DCB98C600C22E79 /* PlayersCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersCard.swift; sourceTree = "<group>"; };
+		84EF82EA2DCB98C600C22E79 /* AvatarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerView.swift; sourceTree = "<group>"; };
+		84EF82EB2DCB98C600C22E79 /* GamesHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesHub.swift; sourceTree = "<group>"; };
+		84EF82EC2DCB98C600C22E79 /* GameDetailSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailSwift.swift; sourceTree = "<group>"; };
+		84EF82ED2DCB98C600C22E79 /* TrueOrDareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueOrDareView.swift; sourceTree = "<group>"; };
+		84EF82EE2DCB98C600C22E79 /* EmojiBattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBattleView.swift; sourceTree = "<group>"; };
+		84EF82EF2DCB98C600C22E79 /* QuickMathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMathView.swift; sourceTree = "<group>"; };
+		84EF82F02DCB98C600C22E79 /* GuessTheWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheWordView.swift; sourceTree = "<group>"; };
+		84EF82F22DCB98C600C22E79 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		84EF82F32DCB98C600C22E79 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		84EF82F42DCB98C600C22E79 /* Back.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back.swift; sourceTree = "<group>"; };
+		84EF82F52DCB98C600C22E79 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		84EF82F62DCB98C600C22E79 /* Font + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + ext.swift"; sourceTree = "<group>"; };
+		84EF82F72DCB98C600C22E79 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		84EF83092DCB98F200C22E79 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		84EF830B2DCB992500C22E79 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		A094902A35EC4FE14C38DC4D /* Pods_OneHub_Friends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneHub_Friends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24436B0192C5D0AE6EE5575 /* Pods-OneHub-Friends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneHub-Friends.release.xcconfig"; path = "Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EF82A62DCB988900C22E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D201E27621081CDFCD08B86 /* Pods_OneHub_Friends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38569B90D6A6315CB370E2CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A094902A35EC4FE14C38DC4D /* Pods_OneHub_Friends.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84EF82A02DCB988900C22E79 = {
+			isa = PBXGroup;
+			children = (
+				84EF830B2DCB992500C22E79 /* codemagic.yaml */,
+				84EF82CA2DCB989C00C22E79 /* OneHub-Friends */,
+				84EF82AA2DCB988900C22E79 /* Products */,
+				8EDD2C74E7D2B3F4E2FCFA1C /* Pods */,
+				38569B90D6A6315CB370E2CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84EF82AA2DCB988900C22E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82A92DCB988900C22E79 /* OneHub-Friends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EF82CA2DCB989C00C22E79 /* OneHub-Friends */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82D22DCB98A400C22E79 /* OneHub-Friends.entitlements */,
+				84EF82C12DCB989C00C22E79 /* AppDelegate.swift */,
+				84EF82C22DCB989C00C22E79 /* Assets.xcassets */,
+				84EF82E22DCB98B800C22E79 /* lottieAnim.json */,
+				84EF82C32DCB989C00C22E79 /* Info.plist */,
+				84EF82E42DCB98C100C22E79 /* GoogleService-Info.plist */,
+				84EF82C52DCB989C00C22E79 /* LaunchScreen.storyboard */,
+				84EF82C72DCB989C00C22E79 /* Main.storyboard */,
+				84EF82C82DCB989C00C22E79 /* SceneDelegate.swift */,
+				84EF82E62DCB98C600C22E79 /* ViewController.swift */,
+				84EF82E72DCB98C600C22E79 /* MainTabBar.swift */,
+				84EF82E82DCB98C600C22E79 /* FriendsView.swift */,
+				84EF82E92DCB98C600C22E79 /* PlayersCard.swift */,
+				84EF82EA2DCB98C600C22E79 /* AvatarPickerView.swift */,
+				84EF82EB2DCB98C600C22E79 /* GamesHub.swift */,
+				84EF82EC2DCB98C600C22E79 /* GameDetailSwift.swift */,
+				84EF82F12DCB98C600C22E79 /* GamesView */,
+				84EF82F22DCB98C600C22E79 /* StatsView.swift */,
+				84EF82F32DCB98C600C22E79 /* CustomAlertView.swift */,
+				84EF82F42DCB98C600C22E79 /* Back.swift */,
+				84EF82F52DCB98C600C22E79 /* BackButton.swift */,
+				84EF82F62DCB98C600C22E79 /* Font + ext.swift */,
+				84EF82F72DCB98C600C22E79 /* StoreManager.swift */,
+				84EF82D52DCB98B400C22E79 /* Helpers */,
+				84EF82D72DCB98B400C22E79 /* ViewModels */,
+				84EF82DB2DCB98B400C22E79 /* Model */,
+				84EF83092DCB98F200C22E79 /* PrivacyInfo.xcprivacy */,
+			);
+			path = "OneHub-Friends";
+			sourceTree = "<group>";
+		};
+		84EF82D52DCB98B400C22E79 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82D32DCB98B400C22E79 /* GameBase.swift */,
+				84EF82D42DCB98B400C22E79 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84EF82D72DCB98B400C22E79 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82D62DCB98B400C22E79 /* FriendsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84EF82DB2DCB98B400C22E79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82D82DCB98B400C22E79 /* TabItem.swift */,
+				84EF82D92DCB98B400C22E79 /* PlayerModel.swift */,
+				84EF82DA2DCB98B400C22E79 /* AvatarPositionKey.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EF82F12DCB98C600C22E79 /* GamesView */ = {
+			isa = PBXGroup;
+			children = (
+				84EF82ED2DCB98C600C22E79 /* TrueOrDareView.swift */,
+				84EF82EE2DCB98C600C22E79 /* EmojiBattleView.swift */,
+				84EF82EF2DCB98C600C22E79 /* QuickMathView.swift */,
+				84EF82F02DCB98C600C22E79 /* GuessTheWordView.swift */,
+			);
+			path = GamesView;
+			sourceTree = "<group>";
+		};
+		8EDD2C74E7D2B3F4E2FCFA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1177B688D5CCFD907797DC37 /* Pods-OneHub-Friends.debug.xcconfig */,
+				C24436B0192C5D0AE6EE5575 /* Pods-OneHub-Friends.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EF82A82DCB988900C22E79 /* OneHub-Friends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF82BC2DCB988B00C22E79 /* Build configuration list for PBXNativeTarget "OneHub-Friends" */;
+			buildPhases = (
+				011F2FBDC91E703AA4CD2258 /* [CP] Check Pods Manifest.lock */,
+				84EF82A52DCB988900C22E79 /* Sources */,
+				84EF82A62DCB988900C22E79 /* Frameworks */,
+				84EF82A72DCB988900C22E79 /* Resources */,
+				3226D3706E06066C893FCAD9 /* [CP] Embed Pods Frameworks */,
+				297A523C9E5F0F910756EA13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneHub-Friends";
+			productName = "OneHub-Friends";
+			productReference = 84EF82A92DCB988900C22E79 /* OneHub-Friends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EF82A12DCB988900C22E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					84EF82A82DCB988900C22E79 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 84EF82A42DCB988900C22E79 /* Build configuration list for PBXProject "OneHub-Friends" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EF82A02DCB988900C22E79;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 84EF82AA2DCB988900C22E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EF82A82DCB988900C22E79 /* OneHub-Friends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EF82A72DCB988900C22E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF830A2DCB98F200C22E79 /* PrivacyInfo.xcprivacy in Resources */,
+				84EF82CB2DCB989C00C22E79 /* Assets.xcassets in Resources */,
+				84EF82E32DCB98B800C22E79 /* lottieAnim.json in Resources */,
+				84EF82E52DCB98C100C22E79 /* GoogleService-Info.plist in Resources */,
+				84EF82CD2DCB989C00C22E79 /* LaunchScreen.storyboard in Resources */,
+				84EF82CE2DCB989C00C22E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		011F2FBDC91E703AA4CD2258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneHub-Friends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		297A523C9E5F0F910756EA13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3226D3706E06066C893FCAD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneHub-Friends/Pods-OneHub-Friends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EF82A52DCB988900C22E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF82DC2DCB98B400C22E79 /* TabItem.swift in Sources */,
+				84EF82DD2DCB98B400C22E79 /* GameBase.swift in Sources */,
+				84EF82DE2DCB98B400C22E79 /* PlayerModel.swift in Sources */,
+				84EF82DF2DCB98B400C22E79 /* FriendsViewModel.swift in Sources */,
+				84EF82E02DCB98B400C22E79 /* Helper.swift in Sources */,
+				84EF82F82DCB98C600C22E79 /* GamesHub.swift in Sources */,
+				84EF82F92DCB98C600C22E79 /* ViewController.swift in Sources */,
+				84EF82FA2DCB98C600C22E79 /* MainTabBar.swift in Sources */,
+				84EF82FB2DCB98C600C22E79 /* EmojiBattleView.swift in Sources */,
+				84EF82FC2DCB98C600C22E79 /* AvatarPickerView.swift in Sources */,
+				84EF82FD2DCB98C600C22E79 /* StoreManager.swift in Sources */,
+				84EF82FE2DCB98C600C22E79 /* QuickMathView.swift in Sources */,
+				84EF82FF2DCB98C600C22E79 /* GameDetailSwift.swift in Sources */,
+				84EF83002DCB98C600C22E79 /* StatsView.swift in Sources */,
+				84EF83012DCB98C600C22E79 /* TrueOrDareView.swift in Sources */,
+				84EF83022DCB98C600C22E79 /* Font + ext.swift in Sources */,
+				84EF83032DCB98C600C22E79 /* FriendsView.swift in Sources */,
+				84EF83042DCB98C600C22E79 /* CustomAlertView.swift in Sources */,
+				84EF83052DCB98C600C22E79 /* BackButton.swift in Sources */,
+				84EF83062DCB98C600C22E79 /* PlayersCard.swift in Sources */,
+				84EF83072DCB98C600C22E79 /* Back.swift in Sources */,
+				84EF83082DCB98C600C22E79 /* GuessTheWordView.swift in Sources */,
+				84EF82E12DCB98B400C22E79 /* AvatarPositionKey.swift in Sources */,
+				84EF82CF2DCB989C00C22E79 /* AppDelegate.swift in Sources */,
+				84EF82D02DCB989C00C22E79 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84EF82C52DCB989C00C22E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF82C42DCB989C00C22E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		84EF82C72DCB989C00C22E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF82C62DCB989C00C22E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EF82BD2DCB988B00C22E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1177B688D5CCFD907797DC37 /* Pods-OneHub-Friends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OneHub-Friends/OneHub-Friends.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OneHub-Friends/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHub-FriendsBattle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84EF82BE2DCB988B00C22E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24436B0192C5D0AE6EE5575 /* Pods-OneHub-Friends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OneHub-Friends/OneHub-Friends.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OneHub-Friends/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OneHub-FriendsBattle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84EF82BF2DCB988B00C22E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EF82C02DCB988B00C22E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EF82A42DCB988900C22E79 /* Build configuration list for PBXProject "OneHub-Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF82BF2DCB988B00C22E79 /* Debug */,
+				84EF82C02DCB988B00C22E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EF82BC2DCB988B00C22E79 /* Build configuration list for PBXNativeTarget "OneHub-Friends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF82BD2DCB988B00C22E79 /* Debug */,
+				84EF82BE2DCB988B00C22E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EF82A12DCB988900C22E79 /* Project object */;
+}
