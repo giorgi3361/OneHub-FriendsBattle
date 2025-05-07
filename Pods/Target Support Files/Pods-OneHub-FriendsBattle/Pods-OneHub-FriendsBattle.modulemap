@@ -1,6 +1,0 @@
-framework module Pods_OneHub_FriendsBattle {
-  umbrella header "Pods-OneHub-FriendsBattle-umbrella.h"
-
-  export *
-  module * { export * }
-}
